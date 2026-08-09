@@ -55,5 +55,5 @@ We do not collect, transmit, log, or sell:
                
                 - ## 10. Contact
                
-                - If you have questions about this Privacy Policy, please contact us by opening an issue on this repository: github.com/Techchain2023/vpnholu-legal/issues.
+                - If you have questions about this Privacy Policy, please contact us at techtunerlife@gmail.com.
                 - 
