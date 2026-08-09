@@ -51,5 +51,5 @@ You agree that:
      
       - ## 11. Contact
      
-      - Questions about these Terms may be directed to us by opening an issue on this repository: github.com/Techchain2023/vpnholu-legal/issues.
+      - Questions about these Terms may be directed to us at techtunerlife@gmail.com.
       - 
