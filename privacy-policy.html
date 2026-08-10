@@ -118,7 +118,7 @@ permalink: /privacy-policy/
   <header class="top">
     <div class="app">VPN Holu</div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: August 9, 2026</p>
+    <p class="updated">Last updated: August 10, 2026</p>
   </header>
 
   <div class="intro">
@@ -133,7 +133,7 @@ permalink: /privacy-policy/
   <ul>
     <li>Your browsing history or the destinations you connect to</li>
     <li>DNS queries made through the VPN tunnel</li>
-    <li>Your original IP address once connected</li>
+    <li>Your IP address in any developer-controlled database or analytics system</li>
     <li>VPN connection logs on any server we control (VPN Holu is BYOVPN — you supply your own WireGuard or IKEv2 server; we have no visibility into that server or its logs)</li>
     <li>Any traffic content passing through the tunnel</li>
   </ul>
@@ -144,18 +144,23 @@ permalink: /privacy-policy/
     <li>VPN profile configurations you create (server addresses, ports, protocol settings)</li>
     <li>Credentials and keys required to connect to the VPN servers you configure (stored in the iOS Keychain)</li>
     <li>App preferences (e.g., trusted Wi-Fi networks, auto-connect settings, kill switch settings, theme)</li>
-    <li>Local connection history (timestamps and data usage for your own reference), stored only on your device</li>
+    <li>Connection status, basic connection statistics, and local connection history (timestamps and data usage for your own reference)</li>
+        <li>Local diagnostic entries generated when you use the Diagnostics screen</li>
   </ul>
-  <p>You may delete this data at any time from within the App's Settings, or by deleting the App.</p>
+  <p>This information is used only to create and manage VPN profiles, establish user-requested VPN connections, support trusted Wi-Fi and automatic connection features, display connection status and basic traffic statistics, and provide user-initiated diagnostics. It is not used for advertising, tracking, profiling, analytics, or marketing.</p>
+
+      <p>You may delete this data at any time from within the App's Settings, or by deleting the App.</p>
 
   <h2>4. Network Extension Permissions</h2>
   <p>VPN Holu uses Apple's NetworkExtension framework to establish VPN tunnels (WireGuard and IKEv2). Granting VPN configuration access is required for the App to function. This permission is used solely to establish the encrypted tunnel to the server you configure — it is not used to monitor or report your activity to us.</p>
 
   <h2>5. Third-Party Servers</h2>
-  <p>VPN Holu connects to VPN servers that you provide and control. We do not operate, manage, or have access to these servers. Any data handling that occurs on your own VPN server is governed by your own configuration and is outside the App's and this Policy's scope.</p>
+  <p>VPN Holu connects to VPN servers that you select and configure. We do not receive your VPN traffic. The security, availability, and data-handling practices of a VPN server are controlled by that server's operator and are outside VPN Holu's control.</p>
+
+      <p>To display your current public IP address, the App may send a standard network request to a public IP-display service. That service necessarily receives the connecting IP address and may apply its own privacy policy. VPN Holu does not intentionally send your name, email address, device identifier, VPN credentials, browsing history, or advertising identifier. No other locally stored profile or diagnostic information is shared with these services.</p>
 
   <h2>6. Diagnostics Data</h2>
-  <p>The App includes an optional in-app Diagnostics screen (connectivity tests, DNS leak tests, latency checks) for your own troubleshooting. Results are displayed only within the App and are not transmitted to us.</p>
+  <p>The App includes an optional in-app Diagnostics screen for your own troubleshooting. User-initiated connectivity, DNS resolution, latency, and public-IP checks make ordinary network requests to the selected test destinations or services. Results and diagnostic entries are displayed and stored locally on your device and are not transmitted to us.</p>
 
   <h2>7. Analytics and Advertising</h2>
   <p>VPN Holu contains no third-party analytics SDKs, no advertising SDKs, and no tracking of any kind.</p>
